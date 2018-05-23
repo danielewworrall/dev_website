@@ -18,8 +18,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Daniel Worrall is a postdoctoral researcher in machine learning based in the
   Philips Laboratory, University of Amsterdam
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/dev_website" # the subpath of your site, e.g. /blog
+url: "http://deworrall92.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: deworrall92
 github_username:  deworrall92
 
