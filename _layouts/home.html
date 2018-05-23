@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div>
+    <h1>Welcome to my site!</h1>
+    <p>I am a machine learning postdoc with Max Welling in the Philips Lab at
+    the University of Amsterdam.</p>
+  </div>
+
+  <div class="warning">
+    I have now moved to Amsterdam!
+  </div>
+
+  <p>Things that will help me build websites:</p>
+
+  <div class="row">
+  	<div class="col-md-4">
+  		<h2>HTML</h2>
+  		<p>Used for content and structure of web pages.</p>
+  	</div>
+  	<div class="col-md-4">
+  		<h2>CSS</h2>
+  		<p>Defines the design of website elements.</p>
+  	</div>
+  	<div class="col-md-4">
+  		<h2>JavaScript</h2>
+  		<p>Can add cool effects to otherwise boring pages.</p>
+  	</div>
+  </div>
+
+
+  {{ content }}
+
+</div>
